@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
     name_hash.each {|key, value|
       values << value
     }
-    
+  end
 end
