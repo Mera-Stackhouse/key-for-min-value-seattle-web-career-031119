@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     nil 
   else
     values = []
+    the_key = []
     name_hash.each {|key, value|
       values << value
     }
@@ -19,7 +20,7 @@ def key_for_min_value(name_hash)
     puts smallest
     name_hash.each {|key, value|
       if value == smallest
-        key
+        the_key = key
       end
     }
     puts key
