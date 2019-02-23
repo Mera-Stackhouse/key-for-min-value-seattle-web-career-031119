@@ -7,9 +7,19 @@ def key_for_min_value(name_hash)
   else
     values = []
     the_key = []
-    i = 1 
+    name_hash.each {|key, value|
+      values << value
+    }
+    smallest = values[0]
     for i in 1..(values.length-1)
-      values[0]
+      if values[i] < smallest
+        smallest = values[i]
+      end
+    end
+    name_hash.each {|key, value|
+      if value == smallest
+        key
+      end
     }
   end
 end
