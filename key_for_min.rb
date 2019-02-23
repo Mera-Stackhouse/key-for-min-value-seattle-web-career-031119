@@ -23,7 +23,7 @@ def key_for_min_value(name_hash)
         the_key = key
       end
     }
-    puts key
+    puts the_key
   end
 end
 
