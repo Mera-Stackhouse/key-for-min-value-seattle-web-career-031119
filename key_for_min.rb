@@ -8,7 +8,8 @@ def key_for_min_value(name_hash)
     values = []
     the_key = []
     i = 1 
-    for i in 1..
+    for i in 1..(values.length-1)
+      values[0]
     }
   end
 end
