@@ -8,9 +8,7 @@ def key_for_min_value(name_hash)
     values = []
     the_key = []
     name_hash.each {|key, value|
-      if value < values
-        values = value
-        the_key = key
-      end
+      values << value
     }
+    
 end
