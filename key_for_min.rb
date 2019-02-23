@@ -23,3 +23,7 @@ def key_for_min_value(name_hash)
     }
   end
 end
+
+name_hash = { "mera" => 5, "rayna" => 2}
+
+key_for_min_value(name_hash)
