@@ -6,10 +6,10 @@ def key_for_min_value(name_hash)
     nil 
   else
     values = []
-    the_key = []
     name_hash.each {|key, value|
       values << value
     }
+    puts values
     smallest = values[0]
     for i in 1..(values.length-1)
       if values[i] < smallest
